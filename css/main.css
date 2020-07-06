@@ -567,13 +567,6 @@ footer .links p {
   padding-bottom: 1rem;
 }
 
-@media (orientation: landscape) and (min-width: 1200px) {
-  .body {
-    max-width: 1500px;
-    margin: auto;
-  }
-}
-
 @media (orientation: portrait) and (min-width: 786px) {
   .body {
     display: none;
