@@ -1,0 +1,25 @@
+main {
+    .float-btn {
+        background-color: #37bda2;
+        border: none;
+        border-radius: 50%;
+        position: fixed;
+        right: 2rem;
+        bottom: 2rem;
+        padding: 1rem;
+        font-size: 2rem;
+        cursor: pointer;
+        box-shadow: 0 0 1rem 0.25rem rgba(0,0,0,0.5);
+        transform: background-color 0.2s;
+
+        &:focus {
+            outline: none;
+        }
+        &:active {
+            background-color: #333;
+        }
+    }
+    .fas {
+        color: #fff;
+    }
+}

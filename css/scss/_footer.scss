@@ -1,0 +1,115 @@
+footer {
+    .contact {
+        height: 85vh;
+        background-color: #009879;
+        .title-sec {
+            padding: 1rem 0;
+            font-size: 3rem;
+            text-align: center;
+            font-weight: 700;
+            color: #fff;
+            box-shadow: 0 1rem 1rem 0.3rem rgba(0, 0, 0, 0.2);
+        }
+        .contact-sec {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+        }
+        .contact-detail {
+            padding: 5rem 5rem;
+            font-size: 1.5rem;
+            .title {
+                font-size: 2rem;
+                font-weight: 600;
+                margin-bottom: 1.75rem;
+                color: #fff;
+                text-align: left;
+            }
+            .desc {
+                font-size: 1.2rem;
+                padding-bottom: 1rem;
+                color: #ddd;
+            }
+            p {
+                color: #eee;
+                margin-top: 0.25rem;
+            }
+        }
+        .contact-form {
+            margin: 1rem 1rem;
+            label {
+                font-size: 1.5rem;
+                font-weight: 600;
+                display: block;
+                margin: 1rem 0rem;
+                color: #fff;
+            }
+            .input-email, .input-msg {
+                background-color: #eee;
+                padding: 0.5rem 1rem;
+                border: none;
+                border-radius: 0.25rem;
+                border: 1px solid #ddd;
+                width: 80%;
+                font-size: 1rem;
+                font-weight: 500;
+                transition: ease-in 0.3s;
+                &:focus {
+                    outline: none;
+                    background-color: #fff;
+                    border: 4px solid #fff;
+                    box-shadow: 0 0 1rem 0.2rem rgba(0, 0, 0, 0.2);
+                }
+            }
+            .submit-btn {
+                margin-top: 1rem;
+                padding: 0.75rem 1rem;
+                border: 4px solid #fff;
+                background-color: #fff;
+                font-size: 1rem;
+                font-weight: bold;
+                border-radius: 0.75rem;
+                transition: ease-in-out 0.5s;
+                color: #009879;
+                cursor: pointer;
+                &:focus {
+                    outline: none;
+                }
+                &:hover {
+                    transform: scale(1.2);
+                    background-color: #fff;
+                }
+            }
+        }
+    }
+    .links {
+        height: 18vh;
+        background-color: #333;
+        overflow: hidden;
+        .link {
+            ul {
+                list-style-type: none;
+                display: flex;
+                justify-content: center;
+                margin: 2rem 1rem;
+                li {
+                    a {
+                        padding: 1rem 1rem;
+                        color: #fff;
+                        text-decoration: none;
+                        transition: ease-out 0.2s;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+            } 
+        }
+        p {
+            text-align: center;
+            color: #fff;
+            font-size: 0.75rem;
+            padding-bottom: 1rem;
+        }
+    }
+}

@@ -1,0 +1,82 @@
+main {
+    .title-subs {
+        font-size: 3rem;
+        font-weight: 700;
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .services {
+        background-color: #37bda2;
+        margin-top: 0;
+        color: #fff;
+    }
+    .sec-card {
+            padding: 1rem 7rem;
+            background-color: #37bda2;
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+
+            .card {
+                box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+                margin: 1rem 1rem;
+                border: 1px solid #777;
+                border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+                background-color: #fff;
+                overflow: hidden;
+                cursor: pointer;
+                transition: all ease-in-out 0.25s;
+
+                .card-img-top {
+                    border-radius: 0.45rem 0.45rem 0 0;
+                    overflow: hidden;
+                    width: 100%;
+                    height: auto;
+                    transition: all ease-in-out 0.25s;
+                }
+                .card-body {
+                    border-radius: 0 0 0.25rem 0.25rem;
+                    margin-top: 0.5rem;
+                    height: 12rem;
+                    width: 100%;
+                    transition: all ease-in-out 0.25s;
+                    padding: 0.25rem 0.25rem;
+                    .card-title {
+                        padding: 0rem 0.5rem;
+                        font-weight: 500;
+                        font-size: 1.5rem;
+                        overflow: hidden;
+                        margin-bottom: 1rem;
+                    }
+                    .card-text {
+                        padding: 0rem 0.75rem;
+                        font-size: 0.85rem;
+                    }
+                }
+
+                &:hover .card-img-top {
+                    opacity: 0.5;
+                }
+                &:hover .card-body {
+                    opacity: 0.3;
+                }
+            }
+        }
+        .secvice-btn {
+            display: block;
+            margin: auto;
+            padding: 0rem 1rem;
+            background: none;
+            color: #fff;
+            border: none;
+            font-size: 1rem;
+            font-weight: 700;
+            cursor: pointer;
+            outline: none;
+            
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

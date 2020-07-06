@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing Page</title>
+  <script src="./fonts/fontawsome.js"></script>
+  <script src="./lib/jquery.js"></script>
+  <link rel="stylesheet" type="text/css" href="./css/main.css">
+</head>
+
+<body>
+  <div class="body">
+    <!-- Navbar -->
+    <header>
+      <div class="navbar">
+        <p class="logo"><i class="fab fa-qq"></i>&nbsp;Myk</p>
+        <ul>
+          <li><button class="home active"><i class="fas fa-home"></i>&nbsp;Home</button></li>
+          <li><button class="service"><i class="fas fa-user-graduate"></i>&nbsp;Service</button></li>
+          <li><button class="contact"><i class="fas fa-id-badge"></i>&nbsp;Contact</button></li>
+          <li><button class="about"><i class="fas fa-users"></i>&nbsp;About Us</button></li>
+        </ul>
+      </div>
+
+      <div class="img-box home-tab">
+        <div class="title">
+          <h1>Myk Org</h1>
+          <p>We believe in making things more easier to access and develop.
+            Our main goal is to provide an easier interface to access the modern technologies,
+            in order to make process of development as easier as possible.</p>
+          <button class="contact-btn">Contact us</button>
+          <button class="help-btn">Help?</button>
+        </div>
+        <div class="img" title="Remote Office"></div>
+      </div>
+      <div class="ender">
+        <h1 class="title-sec-cur"></h1>
+      </div>
+    </header>
+
+    <!-- Dynamic Content -->
+    <div class="dy-content">
+
+    </div>
+
+    <!-- Content -->
+    <main>
+      <!-- About Us -->
+      <p class="title-subs home-tab">About Us</p>
+      <section class="about-sec home-tab">
+        <div class="about-desc">
+          <p class="title-about">Myk Org</p>
+          <p class="desc">Our Team provides services on technologies like IoT, Machine Learning, Web technologies,
+            RestAPI, APIs for Machine Learning, Image Processing, Voice processing, Video rendering
+            A Math's AI which is capable of solving any given problem and so on.</p>
+            <button class="about-btn">Continue</button>
+        </div>
+        <div class="about-img">
+          <img src="./asset/about/about-us.jpg" alt="About Image">
+        </div>
+      </section>
+      <div class="ender home-tab">
+        <div class="upper-svg">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#fff" fill-opacity="1"
+              d="M0,160L40,176C80,192,160,224,240,229.3C320,235,400,213,480,186.7C560,160,640,128,720,138.7C800,149,880,203,960,202.7C1040,203,1120,149,1200,154.7C1280,160,1360,224,1400,256L1440,288L1440,0L1400,0C1360,0,1280,0,1200,0C1120,0,1040,0,960,0C880,0,800,0,720,0C640,0,560,0,480,0C400,0,320,0,240,0C160,0,80,0,40,0L0,0Z">
+            </path>
+          </svg>
+        </div>
+      </div>
+      <!-- Services Section -->
+      <p class="title-subs services home-tab">Services</p>
+      <section class="sec-card home-tab">
+        <div class="cards"></div>
+        <button class="secvice-btn">See More</button>
+      </section>
+      <!-- Modal for cards -->
+      <div class="modal">
+        <p class="title">Title</p>
+        <img src="" alt="" class="full-img">
+        <p class="desc"></p>
+      </div>
+      <!-- Floating btn -->
+      <i class="fas fa-sun float-btn" title="Switch Mode" mode="day"></i>
+    </main>
+
+    <!-- Footer With Contact Form -->
+    <footer>
+      <section class="contact">
+        <p class="title-sec">FeedBack Form</p>
+        <div class="contact-sec">
+          <div class="contact-detail">
+            <p class="title">Myk Org</p>
+            <p class="desc">We welcome you to be a part of this amazing community of developer and common people to
+              get together and drive the future of modern technologies, Please send your Feedback that helps us alot
+               to make your experience more enjoyable</p>
+            <p><i class="fas fa-phone-alt"></i>&emsp;0987654321</p>
+            <p><i class="fas fa-envelope"></i>&emsp;test@host.com</p>
+          </div>
+          <div class="contact-form">
+            <form method="post">
+              <label><i class="far fa-envelope-open"></i>&emsp;Email</label>
+              <input type="email" class="input-email" autocomplete="off" placeholder="Enter your Mail Id"><br />
+              <label><i class="far fa-comment-alt"></i>&emsp;Message</label>
+              <textarea class="input-msg" cols="25" rows="10" autocomplete="off"
+                placeholder="Type in your Message"></textarea><br />
+              <button type="button" class="submit-btn"><i class="fas fa-paper-plane"></i>&nbsp;Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section class="links">
+        <div class=link>
+          <ul>
+            <li><a href=""><i class="fab fa-twitter"></i>&emsp;Twitter</a></li>
+            <li><a href=""><i class="fab fa-github"></i>&emsp;Github</a></li>
+            <li><a href=""><i class="fab fa-discord"></i>&emsp;Discord</a></li>
+            <li><a href=""><i class="fab fa-gitlab"></i>&emsp;Gitlab</a></li>
+            <li><a href=""><i class="fab fa-google-plus-g"></i>&emsp;Google+</a></li>
+          </ul>
+        </div>
+        <p>&copy; 2020 website all right revserved by Myk Org</p>
+      </section>
+    </footer>
+  </div>
+
+  <h1 class="fatal">Mobile View is comming soon</h1>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
